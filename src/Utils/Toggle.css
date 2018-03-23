@@ -1,0 +1,17 @@
+button.size150 {
+    max-width: 150px;
+    min-width: 150px;
+}
+button.size160 {
+    /* max-width: 160px; */
+    width: 160px;
+}
+button.size170 {
+    max-width: 170px;
+    min-width: 170px;
+}
+
+button.resize {
+    max-width: 200px;
+    /* min-width: 170px; */
+}

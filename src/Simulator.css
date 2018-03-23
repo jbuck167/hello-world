@@ -1,0 +1,146 @@
+div.ex1 {
+    width: 500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+}
+div.ex2 {
+    max-width: 500px;
+    max-height: 430px;
+    margin: auto;
+    border: 3px solid #73AD21;
+    background: #ffffff;
+}
+
+div.ex3 {
+    min-width: 385px;
+    max-width: 500px;
+    min-height: 430px;
+    max-height: 430px;
+    margin: auto;
+    border: 3px solid #73AD21;
+    background: #ffffff;
+}
+
+div.LargeTable {
+    min-width: 290px;
+    min-height: 466px;
+    margin: auto;
+    background: #ffffff;
+    border: 3px solid #73AD21;
+}
+
+div.SmallTable {
+    min-width: 290px;
+    min-height: 221px;
+    max-height: 221px;
+    margin: auto;
+    background: #ffffff;
+    border: 3px solid #73AD21;
+}
+
+h2.fixed {
+    max-height: 10px;
+    font-size: 20px;
+}
+
+div.container {
+    /* min-height: 100px; */
+    display: flex;
+    background: #3a3a3a;
+    padding: 10px;
+}
+
+div.inner_container {
+    /* min-height: 100px; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.column {
+    flex: 1;
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    box-sizing: border-box;
+}
+
+div.column-divider {
+    flex: 1;
+    background: #3a3a3a;
+    /* border: 1px solid #e6e6e6; */
+    box-sizing: border-box;
+}
+
+div.column-Left {
+    flex: 1;
+    max-width: 49.5%;
+    min-width: 300px;
+    order: 1;
+}
+div.column-Middle {
+    flex: 1;
+    max-width: 1%;
+    min-width: 10px;
+    order: 2;
+}
+div.column-Right {
+    flex: 1;
+    max-width: 49.5%;
+    min-width: 300px;
+    order: 3;
+}
+
+div.column-one {
+    max-width: 100%;
+    min-width: 395px;
+    order: 1;
+}
+div.column-two {
+    max-width: 1%;
+    min-width: 5px;
+    order: 2;
+}
+div.column-three {
+    max-width: 38%;
+    min-width: 400px;
+    order: 3;
+}
+div.column-four {
+    max-width: 1%;
+    min-width: 5px;
+    order: 4;
+}
+div.column-five {
+    max-width: 30%;
+    min-width: 395px;
+    order: 5;
+}
+
+div.sim-column-one {
+    /* max-width: 30%; */
+    max-width: 350px;
+    min-width: 300px;
+    order: 1;
+}
+div.sim-column-two {
+    max-width: 1%;
+    min-width: 5px;
+    order: 2;
+}
+div.sim-column-three {
+    /* max-width: 98%; */
+    /* max-width: 825px; */
+    min-width: 610px;
+    order: 3;
+}
+div.sim-column-four {
+    max-width: 1%;
+    min-width: 5px;
+    order: 4;
+}
+div.sim-column-five {
+    /* max-width: 30%; */
+    max-width: 350px;
+    min-width: 300px;
+    order: 5;
+}

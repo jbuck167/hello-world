@@ -1,0 +1,55 @@
+div.SimHeader {
+    color: rgb(255, 255, 255);
+    background: #3a3a3a;
+    /* border: 1px solid #000000; */
+    box-sizing: border-box;
+    font-weight: bold;
+    text-decoration: none;
+    /* padding: 20px; */
+    display: inline-block;
+    min-height: 50px;
+    max-height: 50px;
+    min-width: 100%;
+  }
+
+div.header-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    /* min-width: 100px; */
+}
+
+div.column-header {
+    flex: 1;
+    
+    /*for demo purposes only */
+    background: #5a5a5a;
+    /* border: 1px solid #e6e6e6; */
+    /* box-sizing: border-box; */
+}
+
+div.column-one {
+    max-width: 400px;
+    min-width: 395px;
+    order: 1;
+}
+div.column-two {
+    max-width: 300px;
+    min-width: 300px;
+    order: 2;
+}
+div.column-three {
+    max-width: 100px;
+    min-width: 100px;
+    order: 3;
+}
+div.column-four {
+    max-width: 100px;
+    min-width: 100px;
+    order: 4;
+}
+div.column-five {
+    max-width: 30%;
+    min-width: 395px;
+    order: 5;
+}
